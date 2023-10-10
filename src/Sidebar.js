@@ -5,8 +5,8 @@ import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import ChatIcon from '@mui/icons-material/Chat';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import './Sidebar.css'
-import { SearchOutlined } from '@mui/icons-material';
 import SidebarChat from './SidebarChat';
+import { SearchOutlined } from '@mui/icons-material';
 
 function Sidebar(  ) {
   return (
@@ -14,7 +14,7 @@ function Sidebar(  ) {
         <div className='sidebar__header'>
           <Avatar />
           <div className='sidebar__headerRight'>
-            <IconButton>
+           <IconButton>
               <DonutLargeIcon />
             </IconButton>
             <IconButton>
