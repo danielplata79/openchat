@@ -8,7 +8,7 @@ import './Sidebar.css'
 import { SearchOutlined } from '@mui/icons-material';
 import SidebarChat from './SidebarChat';
 
-function Sidebar() {
+function Sidebar(  ) {
   return (
     <div className='sidebar'>
         <div className='sidebar__header'>
@@ -34,6 +34,15 @@ function Sidebar() {
         </div>
 
         <div className='sidebar__chats'>
+          <SidebarChat addNewChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
           <SidebarChat />
           <SidebarChat />
           <SidebarChat />

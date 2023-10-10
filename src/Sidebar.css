@@ -1,13 +1,18 @@
 .sidebar {
+    display: flex;
+    flex-direction: column;
     flex: 0.35;
+    background-color: #f6f6f6;
+    border-right: 1px solid lightgray;
 }
 
 .sidebar__search {
-    background-color: #f6f6f6;
+    background-color: white;
     display: flex;
     align-items: center;
     height: 39px;
     padding: 10px;
+    border-bottom: 1px solid lightgray;
 }
 
 .sidebar__searchContainer {
@@ -27,13 +32,19 @@
 .sidebar__searchContainer > input {
     border: none;
     margin-left: 10px;
+    border-style: none;
+}
+
+.sidebar__searchContainer > textarea:focus, input:focus {
+    border:none !important;
+    outline: none;
 }
 
 .sidebar__header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .sidebar__headerRight {
@@ -50,5 +61,5 @@
 
 .sidebar__chats {
     flex: 1;
-    overflow: scroll;
+    overflow: auto;
 }
