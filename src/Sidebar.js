@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import Avatar from '@mui/material/Avatar';
 import { IconButton } from '@mui/material';
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
@@ -9,6 +9,9 @@ import SidebarChat from './SidebarChat';
 import { SearchOutlined } from '@mui/icons-material';
 
 function Sidebar(  ) {
+
+
+
   return (
     <div className='sidebar'>
         <div className='sidebar__header'>
